@@ -14,6 +14,10 @@
 		E7030B5A1E43FD7E009FF727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7030B591E43FD7E009FF727 /* Assets.xcassets */; };
 		E7030B5D1E43FD7E009FF727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7030B5B1E43FD7E009FF727 /* LaunchScreen.storyboard */; };
 		E7030B681E43FE20009FF727 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7030B671E43FE20009FF727 /* GoogleService-Info.plist */; };
+		E7A266CD1E4CEC09009DB5C2 /* StyleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A266CC1E4CEC09009DB5C2 /* StyleView.swift */; };
+		E7A266D01E4CECEB009DB5C2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A266CF1E4CECEB009DB5C2 /* Constants.swift */; };
+		E7A266D21E4CEEB4009DB5C2 /* StyleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A266D11E4CEEB4009DB5C2 /* StyleButton.swift */; };
+		E7A266D61E4CF1E4009DB5C2 /* SigninButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A266D51E4CF1E4009DB5C2 /* SigninButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		E7030B5C1E43FD7E009FF727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7030B5E1E43FD7E009FF727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7030B671E43FE20009FF727 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7A266CC1E4CEC09009DB5C2 /* StyleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleView.swift; sourceTree = "<group>"; };
+		E7A266CF1E4CECEB009DB5C2 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E7A266D11E4CEEB4009DB5C2 /* StyleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleButton.swift; sourceTree = "<group>"; };
+		E7A266D51E4CF1E4009DB5C2 /* SigninButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SigninButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,7 @@
 		E7030B511E43FD7E009FF727 /* Socially */ = {
 			isa = PBXGroup;
 			children = (
+				E7A266CE1E4CECD1009DB5C2 /* Util */,
 				E7030B641E43FDCB009FF727 /* Model */,
 				E7030B651E43FDD2009FF727 /* View */,
 				E7030B661E43FDDB009FF727 /* Controller */,
@@ -103,6 +112,9 @@
 		E7030B651E43FDD2009FF727 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E7A266CC1E4CEC09009DB5C2 /* StyleView.swift */,
+				E7A266D11E4CEEB4009DB5C2 /* StyleButton.swift */,
+				E7A266D51E4CF1E4009DB5C2 /* SigninButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -113,6 +125,14 @@
 				E7030B541E43FD7E009FF727 /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		E7A266CE1E4CECD1009DB5C2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E7A266CF1E4CECEB009DB5C2 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,8 +259,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A266D61E4CF1E4009DB5C2 /* SigninButton.swift in Sources */,
+				E7A266CD1E4CEC09009DB5C2 /* StyleView.swift in Sources */,
+				E7A266D21E4CEEB4009DB5C2 /* StyleButton.swift in Sources */,
 				E7030B551E43FD7E009FF727 /* SignInVC.swift in Sources */,
 				E7030B531E43FD7E009FF727 /* AppDelegate.swift in Sources */,
+				E7A266D01E4CECEB009DB5C2 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
