@@ -80,9 +80,9 @@
 		E7030B511E43FD7E009FF727 /* Socially */ = {
 			isa = PBXGroup;
 			children = (
-				E7030B661E43FDDB009FF727 /* Controller */,
-				E7030B651E43FDD2009FF727 /* View */,
 				E7030B641E43FDCB009FF727 /* Model */,
+				E7030B651E43FDD2009FF727 /* View */,
+				E7030B661E43FDDB009FF727 /* Controller */,
 				E7030B521E43FD7E009FF727 /* AppDelegate.swift */,
 				E7030B561E43FD7E009FF727 /* Main.storyboard */,
 				E7030B5B1E43FD7E009FF727 /* LaunchScreen.storyboard */,
@@ -369,6 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SlyTech.Socially;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,6 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SlyTech.Socially;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
